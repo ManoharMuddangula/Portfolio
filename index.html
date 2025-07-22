@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="author" content="Manohar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuddangulaManohar.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/M logo.jpg">
+    <script src="https://kit.fontawesome.com/51f6bae07e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!----header site--->
+    <div id="header1"> 
+        <div class="container">
+            <nav>
+                <a href="#" class="logoo"><span>M</span>anohar.</a>
+                <ul class="nav" id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi ! I'm <span>Manohar</span></h1>
+                <div class="change-text">
+                    <h3>And I'm</h3>
+                    <h3>
+                        <span class="word">Web&nbsp;Designer</span>
+                        <span class="word">Frontend&nbsp;Developer</span>
+                        <span class="word">Backend&nbsp;  Developer</span>
+                    </h3>
+                </div>
+                <p>A tech-enthusiast who seeks to work with a company that showcase and demands all of my skills.Lokking for a role where I can enhance my knowledge and contribute akills to the company's growth.Adept a problem-sloving and collaborating in team environments.Eager to contribute to innovative software projects</p>
+            </div>
+            
+        </div>
+    </div>
+ <!--- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="Images/5.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>A tech-enthusiast who seeks to work with a company that showcase and demands all of my skills.Lokking for a role where I can enhance my knowledge and contribute akills to the company's growth.Adept a problem-sloving and collaborating in team environments.Eager to contribute to innovative software projects</p> 
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Fronted Development</span><br>HTML & CSS , Javascript , Bootstrap</li>
+                            <li><span>Backend Development</span><br>Java , Python </li>
+                            <li><span>Database</span><br>DBMS  & SQL </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>08/2023 - 04/2024 </span><br>SMART VOTING SYSTEM WITH FACE RECOGNITION<br><br>Technology Used - Python , Django , Flask , OpenCV , MYSql , HTML & CSS , JS </li>
+                            <li><span>08/2022 - 04/3023</span><br>DISEASE PREDICTION BASED ON SYMPTOMS<br><br>Technology Used - Python , Decision tree , Machine learning , HTML & CSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>11/2020 - 06/2024</span><br>Gokaraju Rangaraju Institute Of Engineering and Technology<br>Computer Science and Engineering</li>
+                            <li><span>06/2018 - 05/2020</span><br>Abhyaas Junior College<br>MPC </li>
+                            <li><span>05/2018</span><br>Sri Chaitanya Techno School</li>
+                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--- Projects  -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+                <h2>SMART VOTING SYSTEM WITH FACE RECOGNITION</h2><br>
+                <p>Technology Used - Python , Django , Flask , OpenCV , MYSql , HTML & CSS , JS <br>Developed a secure, smart voting system with facial recognition to enhance the accuracy, accessibility, and security of the voting process. The system uses Flask, OpenCV for facial recognition, and MySQL for data management, with Python and Django for the backend. Voter identity is verified through facial biometric data to prevent fraud. The system includes two account types: voters and organizers, with organizers able to create polls through a user-friendly interface. UML diagrams (use case, sequence, activity, and class diagrams) were employed for system design. This project aims to improve the voting process, ensuring free, fair, and efficient elections</p>
+                <br><br><a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-disease"></i>
+                <h2>DISEASE PREDICTION BASED ON SYMPTOMS</h2><br>
+                <p>Technology Used - Python , Decision tree , Machine learning <br>Disease Prediction System using Machine Learning to predict diseases based on symptoms provided by users. Utilized the Decision Tree algorithm, a supervised learning technique, to classify and predict the likelihood of diseases such as Diabetes, Malaria, Jaundice, Dengue, and Tuberculosis. The system processes user input and outputs the probability of the disease, aiding early diagnosis and improving patient care. Implemented Linear Regression alongside decision trees for precise probability estimation. The project leveraged increasing biomedical and healthcare data to enhance accuracy in disease detection, ultimately benefiting healthcare providers and patients</p>
+                <br><br><a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----- portfolio ----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/amazon.jpeg" >
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/netflix.webp">
+                <div class="layer">
+                    <h3>Netflix  Clone</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/login.jpeg" >
+                <div class="layer">
+                    <h3>Login and Sign Up</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------Services------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-layer-group services-icon"></i>
+                <h2>WEB <br>DEVELOPER</h2><br>
+                <p> creates and maintains websites, focusing on both the user-facing (front-end) and the underlying (back-end) aspects, ensuring functionality, performance, and user experience</p>
+                <br>
+                <a href="" class="btn btn3">Read More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code services-icon"></i>
+                <h2>BACKEND DEVELOPER</h2><br>
+                <p> creates and maintaining the server-side components of web applications, focuses on the server-side logic, databases, and APIs that power a website or application, ensuring its functionality and performance behind the scenes. </p>
+                <a href="" class="btn btn3">Read More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop services-icon"></i>
+                <h2>FRONTEND DEVELOPER</h2><br>
+                <p> creates and maintains websites, a software developer who specializes in building and designing the user-facing part of websites and web applications</p>
+                <br>
+                <br>
+                <a href="" class="btn btn3">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-------------------------------Contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>manoharmuddangula@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9989852020</p>
+                    <div class="social-icons">
+                         <a href="https://www.linkedin.com/in/manohar-muddangula-603733252/"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="https://github.com/manohar-muddangula"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/MANOHAR_Resume (4).pdf" target="_blank" class="btn btn2">view CV</a>
+                    <a href="#" class="btn btn2">Hire Me </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="Message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrigth <i class="far fa-copyright"></i> Manohar </p>
+        </div>
+    </div>
+
+    <script>
+        let words = document.querySelectorAll(".word");
+        words.forEach((word) => {
+            let letters = word.textContent.split("");
+            word.textContent = "";
+            letters.forEach((letter) => {
+                let span = document.createElement("span");
+                span.textContent = letter;
+                span.className = "letter";
+                word.append(span);
+            });
+        });
+
+        let currentWordIndex = 0;
+        let maxWordIndex = words.length - 1;
+        words[currentWordIndex].style.opacity = "1";
+
+        // Function to change text and apply animations
+        let changeText = () => {
+            let currentWord = words[currentWordIndex];
+            let nextWord = currentWordIndex === maxWordIndex ? words[0] : words[currentWordIndex + 1];
+        // Animate the letters of the current word out
+            Array.from(currentWord.children).forEach((letter, i) => {
+                setTimeout(() => {
+                    letter.className = "letter Out";
+                }, i * 80);
+            });
+            
+            nextWord.style.opacity = "1";
+            Array.from(nextWord.children).forEach((letter, i) => {
+                letter.className = "letter behind";
+                setTimeout(() => {
+                    letter.className = "letter in";
+                }, 340 + i * 80);
+            });
+            
+            currentWordIndex = currentWordIndex === maxWordIndex ? 0 : currentWordIndex + 1;
+        };
+        
+        // Run the changeText function every 3 seconds to create the animation loop
+        changeText();
+        setInterval(changeText, 3000);
+
+
+        
+        var tablinks = document.getElementsByClassName("tab-links");        
+        var tabcontents = document.getElementsByClassName("tab-contents");        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVCpmcdgbC5JBFPb2bn0TYDjpQTpPoCTphD9whyAcLopxW9SHakac2mSkTKkBSN4hy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const Message = document.getElementById("Message")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            Message.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                Message.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
